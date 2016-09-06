@@ -1,6 +1,7 @@
 import BNFC._
 
 lazy val ourScalaVersion    = "2.10.6"
+lazy val acme4jVersion      = "0.7"
 lazy val amqpClientVersion  = "2.6.1"
 lazy val base64coderVersion = "2010-09-21"
 lazy val baseXVersion       = "7.6"
@@ -144,6 +145,8 @@ lazy val glosevalDeps = Seq(
   "org.prolog4j"                % "prolog4j-api"      % prolog4jVersion,
   "org.prolog4j"                % "prolog4j-tuprolog" % prolog4jVersion,
   "org.scalaj"                 %% "scalaj-http"       % "2.0.0",
+  "org.shredzone.acme4j"        % "acme4j-client"     % acme4jVersion,
+  "org.shredzone.acme4j"        % "acme4j-utils"      % acme4jVersion,
   "org.slf4j"                   % "slf4j-api"         % "1.7.21",
   "org.slf4j"                   % "slf4j-log4j12"     % "1.7.21",
   "org.bouncycastle"            % "bcprov-jdk15on"    % "1.54",
